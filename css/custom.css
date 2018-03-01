@@ -1,0 +1,230 @@
+.modules.header header .navbar .navbar-collapse ul.navbar-nav li ul.sub-menu {
+    padding: 0 0 0 15px;
+    list-style: none;
+    position: fixed;
+    width: auto;
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all ease-out 0.3s;
+    -moz-transition: all ease-out 0.3s;
+    -o-transition: all ease-out 0.3s;
+    transition: all ease-out 0.3s; }
+.modules.header header .navbar .navbar-collapse ul.navbar-nav li ul.sub-menu li {
+    background-color: #82AA30;  
+    margin-bottom: 1px; }
+.modules.header header .navbar .navbar-collapse ul.navbar-nav li ul.sub-menu li a {
+    font-size: 13px;
+    padding: 4px 6px;
+    color: #fff;
+    display: block;
+    font-weight: 400; }
+.modules.header header .navbar .navbar-collapse ul.navbar-nav li:hover ul.sub-menu {
+    visibility: visible;
+    opacity: 1; }
+.modules.carousel .short_cut_boxs .short_cut_box .short_cut_box_content a {
+    display: block;
+}
+.modules.feature_product .product_item .product_item_overlay span {
+    display: inline-block;
+    color: #fff;
+}
+a:hover {
+    opacity: 1;
+}
+.button_area a.ajax_add_to_cart {
+    display: block;
+    padding: 8px 12px;
+    background-color: #82AA30;
+    border-color: #82AA30;
+    color: #fff;
+    margin: 0 auto 15px;
+    font-size: 15px;
+    box-shadow: none;
+    border-radius: 4px;
+    text-decoration: none;
+}
+.button_area a.ajax_add_to_cart:hover {
+    position: relative;
+    top: -1px;
+    opacity: 1;
+}
+.button_area .added_to_cart  {
+    display: none;
+}
+.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label, .gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label{
+	display:none;
+}
+.gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]){
+	font-size: 15px;
+    color: #244603;
+    background-color: rgba(130, 170, 48, 0.05);
+    border-radius: 7px;
+    padding: 15px;
+    height: auto;
+    border: 1px solid #82AA30;
+}
+.gform_wrapper textarea.medium {
+    height: 160px;
+    width: 100%;
+    font-size: 15px;
+    color: #244603;
+    background-color: rgba(130, 170, 48, 0.05);
+    border-radius: 7px;
+    padding: 15px;
+    height: auto;
+    border: 1px solid #82AA30;
+}
+.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
+    font-size: 1em;
+    width: auto;
+    margin: 0 16px 0 0;
+        background: #82AA30 !important;
+    color: #fff !important;
+    font-size: 17px;
+    margin: 0;
+    padding: 16px;
+    border: 1px solid #82AA30;
+    border-radius: 7px;
+    box-shadow: none;
+}
+.gform_title {
+	display:none;
+}
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea{
+	    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: 1;
+    font-size: 15px;
+    color: #244603;
+    background-color: rgba(130, 170, 48, 0.05);
+    border-radius: 7px;
+    padding: 15px;
+    height: auto;
+    border: 1px solid #82AA30;
+}
+#add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 1.25em;
+    padding: 1em;
+    display: block;
+    padding: 22px 12px;
+    background-color: #82AA30;
+    border-color: #82AA30;
+    color: #fff;
+    margin: 0 auto 15px;
+    font-size: 18px;
+    box-shadow: none;
+}
+.create-post .button, .create-post input, .create-post select, .create-post textarea {
+    font-size: 15px !important;
+    color: #244603 !important;
+    background-color: rgba(130, 170, 48, 0.05) !important;
+    border-radius: 7px !important;
+    padding: 15px !important;
+    height: auto !important;
+    border: 1px solid #82AA30 !important;
+}
+.modules.article_carousel .article_container .article_item { position: relative; }
+.modules.article_carousel .article_container .article_item:before {
+content: '';
+   background: rgba(12, 30, 42, 0.9);
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   z-index: 0;
+   border-radius: 7px;
+}
+.modules.article_carousel .article_container .article_item h2, .modules.article_carousel .article_container .article_item p, .modules.article_carousel .article_container .article_item a.more_item_btn {
+position:relative;
+}
+.control-label {
+    text-align: left;
+}
+.btn-sub{
+    font-size: 1em;
+    width: auto;
+    margin: 0 16px 0 0;
+    background: #82AA30 !important;
+    color: #fff !important;
+    font-size: 17px;
+    margin: 0;
+    padding: 16px;
+    border: 1px solid #82AA30;
+    border-radius: 7px;
+    box-shadow: none;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #333333 !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #333333 !important; 
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #333333 !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #333333 !important;
+}
+.modules.feature_product .product_item img {
+padding: 35px 0;
+}
+.add-margin {
+	margin-top:50px;
+}
+.owl-prev {
+	background: transparent !important;
+    font-size: 50px !important;
+    position: absolute;
+    left: -50px;
+    top: 42%;
+}
+.owl-next {
+	background: transparent !important;
+    font-size: 50px !important;
+    position: absolute;
+    right: -50px;
+    top: 42%;
+}
+.mailpoet_form input[type=submit]{
+	flex-grow: 2;
+    background: #fff;
+    color: #555;
+    font-size: 17px;
+    margin-left: -4px;
+    padding: 16px;
+    border: none;
+    border-radius: 0 7px 7px 0;
+    box-shadow: none;
+}
+.plane-label{
+	    float: left;
+    padding: 16px 10px 16px 10px;
+    margin-top: 10px;
+    background-color: #648225;
+    color: #ffffff;
+	border-radius: 7px 0 0 7px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 500px) {
+	.short_cut_boxs{
+		display:none;
+	}
+	.modules.carousel .carousel .carousel-inner .item .carousel-caption h1 {
+    font-size: 64px;
+	}
+	.modules.carousel {
+		margin-bottom:0px;
+	}
+	.owl-nav{
+		display:none;
+	}
+}
